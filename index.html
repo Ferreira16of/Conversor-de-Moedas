@@ -51,7 +51,7 @@
   <div class="bg-blob blob-2"></div>
   <div class="bg-blob blob-3"></div>
 
-  <main class="app-container">
+  <main class="app-container" id="app-top">
     <header class="app-header">
       <div class="logo">
         <div class="logo-icon"><i data-feather="trending-up"></i></div>
@@ -234,6 +234,194 @@
       </div>
     </footer>
   </main>
+
+  <!-- ===== CONTEÚDO EDITORIAL ===== -->
+  <div class="content-wrapper">
+
+    <!-- Como Funciona -->
+    <section class="content-section" id="como-funciona">
+      <div class="section-badge">Guia Rápido</div>
+      <h2 class="section-title">Como Funciona o Conversor de Moedas?</h2>
+      <p class="section-intro">
+        O <strong>CurrencyX</strong> utiliza a API de câmbio <strong>ExchangeRate-API v6</strong> para buscar cotações atualizadas em tempo real diretamente dos mercados financeiros globais. Basta digitar o valor, escolher as moedas de origem e destino, e o resultado aparece instantaneamente — sem necessidade de recarregar a página.
+      </p>
+
+      <div class="how-grid">
+        <div class="how-card">
+          <div class="how-icon">1</div>
+          <h3>Digite o Valor</h3>
+          <p>Insira o montante que deseja converter no campo "Valor para converter". O sistema aceita valores decimais com precisão de centavos.</p>
+        </div>
+        <div class="how-card">
+          <div class="how-icon">2</div>
+          <h3>Escolha as Moedas</h3>
+          <p>Selecione a moeda de origem (ex: Real Brasileiro) e a moeda de destino (ex: Dólar Americano). Você pode inverter a seleção com um clique no botão central.</p>
+        </div>
+        <div class="how-card">
+          <div class="how-icon">3</div>
+          <h3>Veja o Resultado</h3>
+          <p>A conversão é calculada automaticamente com a taxa de câmbio atual e exibida com a taxa unitária para referência completa.</p>
+        </div>
+        <div class="how-card">
+          <div class="how-icon">4</div>
+          <h3>Consulte o Histórico</h3>
+          <p>Na aba "Histórico", você pode consultar a taxa de câmbio de qualquer data passada — ideal para conferir valores de notas fiscais e transações antigas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Principais Moedas -->
+    <section class="content-section" id="principais-moedas">
+      <div class="section-badge">Referência</div>
+      <h2 class="section-title">Principais Moedas do Mercado Global</h2>
+      <p class="section-intro">
+        Conheça as moedas mais negociadas no mundo e entenda o papel de cada uma no sistema financeiro internacional. As taxas de câmbio dessas moedas influenciam diretamente importações, exportações, investimentos e o custo de vida em todo o planeta.
+      </p>
+
+      <div class="currencies-grid">
+        <article class="currency-card">
+          <div class="currency-flag-icon">🇧🇷</div>
+          <div class="currency-info">
+            <h3>Real Brasileiro (BRL)</h3>
+            <p>A moeda oficial do Brasil, emitida pelo Banco Central do Brasil (BCB). O Real foi introduzido em 1994 como parte do Plano Real, que pôs fim à hiperinflação. É a moeda mais negociada da América Latina e sua cotação é influenciada pela política monetária, pelo preço das commodities (soja, petróleo, minério de ferro) e pelo cenário político interno.</p>
+          </div>
+        </article>
+        <article class="currency-card">
+          <div class="currency-flag-icon">🇺🇸</div>
+          <div class="currency-info">
+            <h3>Dólar Americano (USD)</h3>
+            <p>A moeda de reserva global por excelência. O dólar americano é usado em cerca de 88% de todas as transações cambiais mundiais e serve como referência para o preço do petróleo, do ouro e de grande parte das commodities. O Federal Reserve (Fed) controla sua política monetária e suas decisões de taxa de juros impactam economias em todo o mundo.</p>
+          </div>
+        </article>
+        <article class="currency-card">
+          <div class="currency-flag-icon">🇪🇺</div>
+          <div class="currency-info">
+            <h3>Euro (EUR)</h3>
+            <p>A moeda oficial de 20 países da União Europeia, representando mais de 340 milhões de pessoas. O Euro é a segunda moeda de reserva mais importante do mundo. Lançado em 1999, é gerido pelo Banco Central Europeu (BCE). O par EUR/USD é o mais negociado do mercado forex, representando cerca de 23% do volume diário global.</p>
+          </div>
+        </article>
+        <article class="currency-card">
+          <div class="currency-flag-icon">🇬🇧</div>
+          <div class="currency-info">
+            <h3>Libra Esterlina (GBP)</h3>
+            <p>A moeda mais antiga ainda em circulação e uma das mais valorizadas do mundo. A Libra Esterlina é emitida pelo Banco da Inglaterra e tem forte influência histórica no mercado financeiro global. Após o Brexit (2020), passou por significativas oscilações cambiais, sendo um dos pares mais voláteis e acompanhados pelos traders internacionais.</p>
+          </div>
+        </article>
+        <article class="currency-card">
+          <div class="currency-flag-icon">🇯🇵</div>
+          <div class="currency-info">
+            <h3>Iene Japonês (JPY)</h3>
+            <p>A moeda oficial do Japão e a terceira mais negociada no mercado forex. O Iene é frequentemente usado em operações de "carry trade" devido às historicamente baixas taxas de juros do Banco do Japão (BoJ). Em momentos de crise global, o Iene tende a se valorizar por ser considerado um "porto seguro" pelos investidores.</p>
+          </div>
+        </article>
+        <article class="currency-card">
+          <div class="currency-flag-icon">🇨🇦</div>
+          <div class="currency-info">
+            <h3>Dólar Canadense (CAD)</h3>
+            <p>Frequentemente chamado de "Loonie", o dólar canadense tem forte correlação com o preço do petróleo, já que o Canadá é um dos maiores exportadores mundiais de energia. O Bank of Canada (BoC) define sua política monetária. O par USD/CAD é um dos mais líquidos do mercado forex, especialmente para quem acompanha o mercado de commodities energéticas.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="content-section" id="faq">
+      <div class="section-badge">Dúvidas Frequentes</div>
+      <h2 class="section-title">Perguntas Frequentes sobre Câmbio</h2>
+      <p class="section-intro">
+        Reunimos as dúvidas mais comuns sobre conversão de moedas e taxas de câmbio para ajudar você a entender melhor o mercado financeiro internacional.
+      </p>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Com que frequência as taxas de câmbio são atualizadas?</span>
+            <i data-feather="chevron-down" class="faq-icon"></i>
+          </summary>
+          <div class="faq-answer">
+            <p>As taxas exibidas no CurrencyX são atualizadas a cada 24 horas pela API ExchangeRate-API v6. No mercado financeiro real, as cotações variam segundo a segundo durante os dias úteis (de segunda a sexta). Os valores apresentados aqui são ideais para referência, planejamento de viagens e comparações gerais.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Qual é a diferença entre taxa comercial e taxa turismo?</span>
+            <i data-feather="chevron-down" class="faq-icon"></i>
+          </summary>
+          <div class="faq-answer">
+            <p>A <strong>taxa comercial</strong> (também chamada de Ptax) é a cotação oficial divulgada pelo Banco Central do Brasil e usada em transações entre empresas, importações e exportações. A <strong>taxa turismo</strong> é aplicada na compra de moeda estrangeira em espécie ou cartão de viagem, e costuma ser entre 3% e 7% mais cara. O CurrencyX exibe a taxa de mercado internacional, próxima à comercial.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>O que faz o dólar subir ou cair em relação ao real?</span>
+            <i data-feather="chevron-down" class="faq-icon"></i>
+          </summary>
+          <div class="faq-answer">
+            <p>Vários fatores influenciam o câmbio USD/BRL: <strong>política monetária</strong> do Fed e do Banco Central do Brasil (diferencial de juros), <strong>balança comercial</strong> (superávit tende a fortalecer o real), <strong>fluxo de capital estrangeiro</strong>, <strong>risco político e fiscal</strong> percebido no Brasil, e <strong>preço das commodities</strong> como soja e petróleo. Em momentos de incerteza global, investidores tendem a buscar o dólar como porto seguro, aumentando sua demanda.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Há IOF na compra de moeda estrangeira?</span>
+            <i data-feather="chevron-down" class="faq-icon"></i>
+          </summary>
+          <div class="faq-answer">
+            <p>Sim. O Imposto sobre Operações Financeiras (IOF) incide sobre diversas operações cambiais no Brasil. As alíquotas variam: <strong>0,38%</strong> para compra de moeda em espécie e transferências internacionais, <strong>1,1%</strong> para cartão de crédito internacional, e <strong>3,38%</strong> para cartão de débito no exterior. É importante considerar o IOF ao calcular o custo real de uma conversão para fins práticos.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>O que é o mercado forex?</span>
+            <i data-feather="chevron-down" class="faq-icon"></i>
+          </summary>
+          <div class="faq-answer">
+            <p>O <strong>forex</strong> (foreign exchange) é o maior mercado financeiro do mundo, com volume diário de negociações superior a US$ 7,5 trilhões. É um mercado descentralizado, operando 24 horas por dia durante os dias úteis, distribuído entre os centros financeiros de Sydney, Tóquio, Londres e Nova York. Bancos, corretoras, empresas e investidores individuais participam desse mercado para trocar moedas, proteger-se de riscos cambiais (hedge) e especular sobre variações de preço.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-question">
+            <span>Como usar o histórico de câmbio para fins contábeis?</span>
+            <i data-feather="chevron-down" class="faq-icon"></i>
+          </summary>
+          <div class="faq-answer">
+            <p>Para fins contábeis e fiscais no Brasil, recomenda-se usar a <strong>Ptax</strong> divulgada pelo Banco Central na data da transação. A aba "Histórico" do CurrencyX permite consultar taxas de datas passadas para referência e estimativas. Para documentos oficiais (declaração de IR, notas fiscais de importação), sempre confirme o valor exato no site do Banco Central do Brasil (bcb.gov.br).</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- Footer expandido -->
+    <footer class="content-footer">
+      <div class="footer-grid">
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#como-funciona">Como Funciona</a></li>
+            <li><a href="#principais-moedas">Principais Moedas</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Ferramentas</h4>
+          <ul>
+            <li><a href="#app-top" onclick="switchTab('converter')">Conversor em Tempo Real</a></li>
+            <li><a href="#app-top" onclick="switchTab('historical')">Consulta Histórica</a></li>
+            <li><a href="#app-top" onclick="switchTab('trends')">Ver Tendências</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CurrencyX Studio.</p>
+        <p class="footer-disclaimer">As taxas exibidas são para fins informativos e não constituem aconselhamento financeiro.</p>
+      </div>
+    </footer>
+
+  </div>
 
   <script src="script.js"></script>
   <script>
